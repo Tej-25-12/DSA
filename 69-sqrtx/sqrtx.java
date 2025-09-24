@@ -23,10 +23,9 @@ class Solution {
                 ans = mid;
                 left = mid + 1;
             } else {
-                right = mid - 1; // Too big, try lower
+                right = mid - 1;
             }
         }
-
-        return ans; // Floor of sqrt(x)
+        return ans;
     }
 }
